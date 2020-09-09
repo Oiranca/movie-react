@@ -1,0 +1,26 @@
+@import "src/colors";
+
+header {
+  display: flex;
+  justify-content: space-around;
+  padding: 0.5em;
+  background-color: $Light_Theme;
+  color: $Contrast_Theme;
+
+  a {
+    all: unset;
+    padding: 1em;
+    background-color: $Dark_Component;
+    cursor: pointer;
+    border-radius: 0.9rem;
+    transition: all 0.3s;
+    color: $Contrast_Theme;
+
+  }
+
+}
+
+a:hover {
+  color: $Dark_Theme;
+  background-color: $Contrast_Theme;
+}
